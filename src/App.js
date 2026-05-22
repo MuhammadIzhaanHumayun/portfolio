@@ -15,7 +15,7 @@ const projects = [
     github:
       "https://github.com/MuhammadIzhaanHumayun/Whitepace-Website-login-signup",
     link: "https://muhammadizhaanhumayun.github.io/personal-portfolio-website/",
-    image: "/w.png",
+    image: "w.png",
   },
   {
     title: "Library Management System",
@@ -23,7 +23,7 @@ const projects = [
       "A comprehensive solution for managing book inventories, member records, and borrowing processes with a clean interface.",
     tags: ["Database", "System Design", "Logic"],
     github: "https://github.com/MuhammadIzhaanHumayun/Database-Project",
-    image: "/lms.png",
+    image: "lms.png",
   },
   {
     title: "Restaurant Management System",
@@ -31,7 +31,7 @@ const projects = [
       "An efficiently designed system to handle orders, menu management, and staff assignments for modern dining establishments.",
     tags: ["Software Engineering", "UI Design", "Backend"],
     github: "https://github.com/MuhammadIzhaanHumayun",
-    image: "/rms.png",
+    image: "rms.png",
   },
 ];
 
@@ -79,7 +79,7 @@ export default function App() {
       <footer className="py-12 border-t border-white/5 border-dashed">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-slate-500 text-sm">
-            © 2024 Muhammad Izhaan Humayun
+            © 2026 Muhammad Izhaan Humayun
           </div>
           <div className="flex gap-8 text-xs font-bold uppercase tracking-widest text-slate-500">
             <a
