@@ -53,7 +53,7 @@ const Navigation = () => {
               <Github size={16} />
             </a>
             <a
-              href="www.linkedin.com/in/izhanhumayun"
+              href="https://linkedin.com/in/izhanhumayun"
               target="_blank"
               className="text-slate-500 hover:text-white transition-colors"
             >
