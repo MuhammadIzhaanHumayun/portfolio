@@ -50,10 +50,10 @@ const Contact = () => {
                       Direct Email
                     </div>
                     <a
-                      href="mailto:izhanfilza@gmail.com"
+                      href="mailto:izhanhumayun26@gmail.com"
                       className="text-lg sm:text-xl font-medium text-white hover:text-accent transition-colors tracking-tight truncate block"
                     >
-                      izhanfilza@gmail.com
+                      izhanhumayun26@gmail.com
                     </a>
                   </div>
                 </div>
