@@ -10,16 +10,14 @@ const Hero = () => {
       <div className="absolute top-1/4 -left-1/4 w-1/2 h-1/2 bg-accent/10 blur-[120px] rounded-full pointer-events-none" />
       <div className="absolute bottom-1/4 -right-1/4 w-1/2 h-1/2 bg-blue-500/5 blur-[120px] rounded-full pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-6 w-full grid lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h1 className="text-5xl lg:text-8xl font-display font-bold leading-[0.95] tracking-tight mb-8 text-gradient uppercase">
-            Muhammad <br />
-            Izhaan <br />
-            Humayun
+          <h1 className="text-5xl sm:text-6xl lg:text-8xl font-display font-bold leading-[0.95] tracking-tight mb-8 text-gradient uppercase whitespace-normal">
+            Muhammad Izhaan Humayun
           </h1>
 
           <p className="text-xl text-slate-400 max-w-lg mb-10 leading-relaxed font-light">
@@ -27,8 +25,9 @@ const Hero = () => {
             <span className="text-white font-medium">
               Muhammad Izhaan Humayun
             </span>
-            , a Computer Science Student dedicated to engineering robust systems
-            and elegant frontend solutions.
+            , a Computer Science student aspiring to become a software engineer,
+            building reliable systems and intuitive web experiences using modern
+            development practices and AI-assisted tools.
           </p>
 
           <div className="flex flex-wrap gap-5">

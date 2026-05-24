@@ -14,7 +14,7 @@ const projects = [
     tags: ["React", "CSS3", "JavaScript"],
     github:
       "https://github.com/MuhammadIzhaanHumayun/Whitepace-Website-login-signup",
-    link: "https://muhammadizhaanhumayun.github.io/personal-portfolio-website/",
+    link: "https://muhammadizhaanhumayun.github.io/Whitepace-Website-login-signup/",
     image: "w.png",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     description:
       "A comprehensive solution for managing book inventories, member records, and borrowing processes with a clean interface.",
     tags: ["Database", "System Design", "Logic"],
-    github: "https://github.com/MuhammadIzhaanHumayun/Database-Project",
+    github: "https://github.com/MuhammadIzhaanHumayun/Csharp-Course-Projects",
     image: "lms.png",
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     description:
       "An efficiently designed system to handle orders, menu management, and staff assignments for modern dining establishments.",
     tags: ["Software Engineering", "UI Design", "Backend"],
-    github: "https://github.com/MuhammadIzhaanHumayun",
+    github: "https://github.com/MuhammadIzhaanHumayun/Database-Project",
     image: "rms.png",
   },
 ];

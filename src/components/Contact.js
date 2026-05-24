@@ -24,14 +24,17 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-32 bg-zinc-950">
+    <section
+      id="contact"
+      className="py-20 sm:py-32 bg-zinc-950 overflow-x-hidden"
+    >
       <div className="max-w-7xl mx-auto px-6">
-        <div className="p-6 sm:p-10 lg:p-20 glass rounded-[32px] sm:rounded-[48px] relative overflow-hidden">
+        <div className="p-4 sm:p-10 lg:p-20 glass rounded-[24px] sm:rounded-[48px] relative overflow-hidden min-w-0">
           <div className="absolute top-0 right-0 w-1/2 h-full bg-accent/5 blur-[120px] rounded-full pointer-events-none" />
 
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 relative z-10 min-w-0">
             <div>
-              <h2 className="text-4xl lg:text-6xl font-display font-bold tracking-tight mb-6 lg:mb-8 text-gradient">
+              <h2 className="text-4xl lg:text-6xl font-display font-bold tracking-tight mb-6 lg:mb-8 text-gradient ">
                 Let's start <br />a conversation.
               </h2>
               <p className="text-slate-400 mb-10 lg:mb-12 max-w-md font-light leading-relaxed">
@@ -51,7 +54,7 @@ const Contact = () => {
                     </div>
                     <a
                       href="mailto:izhanhumayun26@gmail.com"
-                      className="text-lg sm:text-xl font-medium text-white hover:text-accent transition-colors tracking-tight truncate block"
+                      className="text-lg sm:text-xl font-medium text-white hover:text-accent transition-colors tracking-tight break-words whitespace-normal"
                     >
                       izhanhumayun26@gmail.com
                     </a>
@@ -63,7 +66,7 @@ const Contact = () => {
                     <MapPin size={20} className="sm:w-6 sm:h-6" />
                   </div>
                   <div>
-                    <div className="text-[10px] text-slate-500 font-bold uppercase tracking-[0.2em] mb-1">
+                    <div className="text-[10px] text-slate-500 font-bold uppercase tracking-wider sm:tracking-[0.2em] mb-1">
                       Current Base
                     </div>
                     <div className="text-lg sm:text-xl font-medium text-white tracking-tight">
@@ -84,8 +87,9 @@ const Contact = () => {
                     <input
                       name="name"
                       type="text"
-                      className="w-full bg-white/5 border border-white/5 rounded-2xl px-5 py-4 text-white placeholder:text-slate-600 focus:border-accent/40 outline-none transition-all"
+                      className="w-full min-w-0 bg-white/5 border border-white/5 rounded-2xl px-5 py-4 text-white placeholder:text-slate-600 focus:border-accent/40 outline-none transition-all"
                       placeholder="Enter name"
+                      required
                     />
                   </div>
                   <div className="space-y-2">
@@ -95,8 +99,9 @@ const Contact = () => {
                     <input
                       name="email"
                       type="email"
-                      className="w-full bg-white/5 border border-white/5 rounded-2xl px-5 py-4 text-white placeholder:text-slate-600 focus:border-accent/40 outline-none transition-all"
+                      className="w-full min-w-0 bg-white/5 border border-white/5 rounded-2xl px-5 py-4 text-white placeholder:text-slate-600 focus:border-accent/40 outline-none transition-all"
                       placeholder="Enter email"
+                      required
                     />
                   </div>
                 </div>
@@ -107,11 +112,12 @@ const Contact = () => {
                   <textarea
                     name="message"
                     rows={4}
-                    className="w-full bg-white/5 border border-white/5 rounded-2xl px-5 py-4 text-white placeholder:text-slate-600 focus:border-accent/40 outline-none transition-all resize-none"
+                    className="w-full min-w-0 bg-white/5 border border-white/5 rounded-2xl px-5 py-4 text-white placeholder:text-slate-600 focus:border-accent/40 outline-none transition-all resize-none"
                     placeholder="What's on your mind?"
+                    required
                   ></textarea>
                 </div>
-                <button className="w-full py-4 sm:py-5 bg-accent text-white font-bold rounded-2xl flex items-center justify-center gap-3 group transition-all shadow-lg shadow-accent/20 hover:bg-accent-strong">
+                <button className="w-full min-w-0 py-4 sm:py-5 bg-accent text-white font-bold rounded-2xl flex items-center justify-center gap-3 group transition-all shadow-lg shadow-accent/20 hover:bg-accent-strong">
                   Send Message{" "}
                   <Send
                     size={18}
