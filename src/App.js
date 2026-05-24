@@ -83,7 +83,7 @@ export default function App() {
           </div>
           <div className="flex gap-8 text-xs font-bold uppercase tracking-widest text-slate-500">
             <a
-              href="https://linkedin.com/in/muhammad-izhaan-humayun"
+              href="https://linkedin.com/in/izhanhumayun"
               target="_blank"
               className="hover:text-white transition-colors"
             >
@@ -97,7 +97,7 @@ export default function App() {
               GitHub
             </a>
             <a
-              href="mailto:izhanfilza@gmail.com"
+              href="mailto:izhanhumayun26@gmail.com"
               className="hover:text-white transition-colors"
             >
               Email
