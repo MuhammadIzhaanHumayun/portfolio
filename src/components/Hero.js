@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { ArrowRight, Download } from "lucide-react";
 import pic from "../../public/MyPic.png";
+import cv from "../../public/IzhaanHumayunCV.pdf";
 
 const Hero = () => {
   return (
@@ -39,7 +40,7 @@ const Hero = () => {
               View Projects <ArrowRight size={20} />
             </motion.a>
             <motion.a
-              href={`${process.env.PUBLIC_URL}/IzhaanHumayunCV.pdf`}
+              href={cv}
               download="IzhaanHumayunCV.pdf"
               whileHover={{ y: -3 }}
               className="px-8 py-4 glass glass-hover text-white font-semibold rounded-2xl flex items-center gap-2"
