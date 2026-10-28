@@ -8,6 +8,16 @@ import { motion } from "motion/react";
 
 const projects = [
   {
+    title: "COncept Paper Management System",
+    description:
+      "A system that maintains the proper approval workflow of the document. So that it revolves in the correct order in the company.",
+    tags: ["PHP", "MySQL", "CodeIgniterV3"],
+    github:
+      "https://github.com/MuhammadIzhaanHumayun/Concept-Paper-Managment-System",
+    link: "https://conceptpaper.infinityfree.io",
+    image: "paper.png",
+  },
+  {
     title: "Whitepace Website",
     description:
       "A refined login and signup experience for the Whitepace platform, focusing on user flow and responsive design.",
